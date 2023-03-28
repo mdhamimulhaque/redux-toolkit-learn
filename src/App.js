@@ -1,11 +1,13 @@
 import './App.css';
-import CounterApp from './componets/CounterApp';
+import AllPosts from './components/AllPosts';
+import CounterApp from './components/CounterApp';
 
 function App() {
 
   return (
     <div className="App">
       <CounterApp />
+      <AllPosts />
 
     </div>
   );

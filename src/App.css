@@ -21,3 +21,18 @@
   padding: 10px;
   cursor: pointer;
 }
+
+.posts {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.posts div {
+  max-width: 300px;
+  width: 100%;
+  background-color: burlywood;
+  padding: 20px;
+}
